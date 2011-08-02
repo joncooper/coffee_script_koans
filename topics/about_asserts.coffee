@@ -1,9 +1,10 @@
 module "About Asserts (topics/about_asserts.js)"
-test "ok", ->
-  ok false, "what will satisfy the ok assertion?"
 
-test "not", ->
-  not_ __, "what is a false value?"
+test "ok", ->
+  ok true, "what will satisfy the ok assertion?"
+
+test "not_ok", ->
+  not_ok false, "what is a false value?"
 
 test "equals", ->
-  equals 1 + 1, __, "what will satisfy the equals assertion?"
+  equals 1 + 1, 2, "what will satisfy the equals assertion?"
