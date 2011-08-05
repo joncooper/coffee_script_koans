@@ -86,5 +86,57 @@
 - instantiating an object
 - calling an instance method
 
+## The Little Book on CoffeeScript Outline
+
+### Syntax
+
+- comments
+- multiline comments
+- variables are scoped
+- creating global variables
+- function declaration
+- function arguments
+- varargs
+- function invocation
+- function context (fat vs skinny arrow)
+- object literals and array definition
+- flow control
+  - if then else
+  - unless
+- operators
+  - is
+  - == and != become === and !==
+- string interpolation
+- loops and comprehensions
+- arrays and ranges
+- aliases and the existential operator
+  - @ means this
+  - :: means prototype
+  - ? is a bag of hammers
+
+### Classes
+
+- class keyword
+- constructors
+- constructor shorthand for instance properties
+- instance properties
+- demonstration of function context
+- class properties
+- inheritance and super
+- prototypal inheritance
+- implementing mixins
+
+### Idioms
+
+- each
+- map
+- select
+- includes
+- min/max
+- multiple arguments
+- and/or
+- destructuring assignments
+- external libraries
+
 
 
